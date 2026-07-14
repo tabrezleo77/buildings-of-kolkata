@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Architectural Wonders of Kolkata | The City of Palaces</title>
+    <meta name="description" content="Explore the breathtaking heritage buildings, colonial remnants, and architectural marvels of Kolkata, the historic City of Palaces.">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Header & Navigation -->
+    <header class="main-header">
+        <nav class="navbar" id="navbar">
+            <a href="#" class="logo">
+                <span class="logo-icon"><i data-lucide="palmtree"></i></span>
+                <span class="logo-text">KOLKATA<span>HERITAGE</span></span>
+            </a>
+            <ul class="nav-links">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#styles" class="nav-link">Styles</a></li>
+                <li><a href="#buildings" class="nav-link">Buildings</a></li>
+                <li><a href="#timeline" class="nav-link">Timeline</a></li>
+                <li><a href="#quiz" class="nav-link">Quiz</a></li>
+            </ul>
+            <div class="nav-actions">
+                <button id="theme-toggle" class="theme-btn" aria-label="Toggle dark mode">
+                    <i data-lucide="sun" class="sun-icon"></i>
+                    <i data-lucide="moon" class="moon-icon"></i>
+                </button>
+                <button class="mobile-nav-toggle" aria-label="Open menu">
+                    <i data-lucide="menu"></i>
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Mobile Drawer Navigation -->
+    <div class="mobile-drawer">
+        <div class="drawer-header">
+            <span class="logo-text">KOLKATA<span>HERITAGE</span></span>
+            <button class="close-drawer"><i data-lucide="x"></i></button>
+        </div>
+        <ul class="drawer-links">
+            <li><a href="#home" class="drawer-link">Home</a></li>
+            <li><a href="#styles" class="drawer-link">Styles</a></li>
+            <li><a href="#buildings" class="drawer-link">Buildings</a></li>
+            <li><a href="#timeline" class="drawer-link">Timeline</a></li>
+            <li><a href="#quiz" class="drawer-link">Quiz</a></li>
+        </ul>
+    </div>
+
+    <!-- Main Content -->
+    <main>
+        
+        <!-- Hero Section -->
+        <section id="home" class="hero-section" style="background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.8)), url('assets/hero.jpg');">
+            <div class="hero-content">
+                <span class="hero-tag animate-up">A Legacy Carved in Stone</span>
+                <h1 class="hero-title animate-up">The Architectural Soul of Kolkata</h1>
+                <p class="hero-subtitle animate-up">Step into the "City of Palaces," where stories of marble, brick, and imperial history whisper from grand arches and soaring domes.</p>
+                <div class="hero-cta animate-up">
+                    <a href="#buildings" class="btn btn-primary">Explore Landmarks</a>
+                    <a href="#styles" class="btn btn-secondary">Architectural Styles</a>
+                </div>
+            </div>
+            <div class="scroll-indicator">
+                <span>Scroll Down</span>
+                <i data-lucide="chevron-down"></i>
+            </div>
+        </section>
+
+        <!-- Intro / Overview Section -->
+        <section id="styles" class="intro-section">
+            <div class="container">
+                <div class="section-header">
+                    <span class="subheading">Architectural Overview</span>
+                    <h2 class="section-title">The City of Palaces</h2>
+                    <p class="section-description">Kolkata's urban landscape is a stunning canvas of conflicting yet harmonious aesthetics. From neoclassical halls inspired by Greek temples to Indo-Saracenic domes and Gothic spires, the city reflects its rich colonial past and cultural renaissance.</p>
+                </div>
+
+                <!-- Architectural Styles Grid -->
+                <div class="styles-grid">
+                    <div class="style-card">
+                        <div class="style-icon"><i data-lucide="columns"></i></div>
+                        <h3 class="style-title">Neoclassical</h3>
+                        <p class="style-desc">Characterized by grand columns, symmetrical shapes, triangular pediments, and domed roofs, inspired by ancient Greece and Rome. Designed to project imperial power and civic pride.</p>
+                        <span class="style-badge">Example: GPO, Metcalfe Hall</span>
+                    </div>
+                    <div class="style-card">
+                        <div class="style-icon"><i data-lucide="church"></i></div>
+                        <h3 class="style-title">Gothic Revival</h3>
+                        <p class="style-desc">Featuring ribbed vaults, pointed arches, stained glass window layouts, and tall spires. It brought a spiritual, medieval European aesthetic to Bengal's humid plains.</p>
+                        <span class="style-badge">Example: St. Paul's Cathedral</span>
+                    </div>
+                    <div class="style-card">
+                        <div class="style-icon"><i data-lucide="landmark"></i></div>
+                        <h3 class="style-title">Indo-Saracenic</h3>
+                        <p class="style-desc">A fusion of Victorian British styling with Mughal, Deccani, Islamic, and Hindu architectural elements, creating imposing facades, chhatris, and minarets.</p>
+                        <span class="style-badge">Example: Victoria Memorial</span>
+                    </div>
+                    <div class="style-card">
+                        <div class="style-icon"><i data-lucide="home"></i></div>
+                        <h3 class="style-title">European Renaissance</h3>
+                        <p class="style-desc">Exhibiting flat facades, semi-circular arches, decorative moldings, and majestic red-brick masonry, mimicking French, Italian, and British public offices.</p>
+                        <span class="style-badge">Example: Writers' Building</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Buildings Showcase Section -->
+        <section id="buildings" class="buildings-section">
+            <div class="container">
+                <div class="section-header">
+                    <span class="subheading">Featured Landmarks</span>
+                    <h2 class="section-title">Monuments of Majesty</h2>
+                    <p class="section-description">Browse through Kolkata's finest architectural gems. Use the filters to explore buildings by their unique design style.</p>
+                </div>
+
+                <!-- Filters -->
+                <div class="filter-wrapper">
+                    <div class="filter-buttons">
+                        <button class="filter-btn active" data-filter="all">All Buildings</button>
+                        <button class="filter-btn" data-filter="neoclassical">Neoclassical</button>
+                        <button class="filter-btn" data-filter="gothic">Gothic Revival</button>
+                        <button class="filter-btn" data-filter="indosaracenic">Indo-Saracenic</button>
+                        <button class="filter-btn" data-filter="renaissance">Renaissance</button>
+                    </div>
+                </div>
+
+                <!-- Buildings Grid -->
+                <div class="buildings-grid" id="buildings-grid">
+                    <!-- Cards will be dynamically generated by JS -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Interactive Timeline Section -->
+        <section id="timeline" class="timeline-section">
+            <div class="container">
+                <div class="section-header">
+                    <span class="subheading">Historical Journey</span>
+                    <h2 class="section-title">Timeline of Evolution</h2>
+                    <p class="section-description">Trace the chronological flow of Kolkata's growth from the early British trading offices of the late 1700s to the grand imperial monuments of the early 1900s.</p>
+                </div>
+
+                <div class="timeline-container">
+                    <div class="timeline-line"></div>
+                    
+                    <div class="timeline-item" data-year="1777">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <span class="timeline-date">1777 (Redesigned 1889)</span>
+                            <h3 class="timeline-title">Writers' Building</h3>
+                            <p class="timeline-text">Originally a simple barrack-like structure for East India Company clerks ("writers"), it was later wrapped in a magnificent French Renaissance red-brick facade.</p>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item" data-year="1799">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <span class="timeline-date">1799 - 1803</span>
+                            <h3 class="timeline-title">Raj Bhavan</h3>
+                            <p class="timeline-text">Modeled after Kedleston Hall in Derbyshire, it was built as the Government House, reflecting neoclassical grandeur to symbolize the British East India Company's supremacy.</p>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item" data-year="1835">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <span class="timeline-date">1835</span>
+                            <h3 class="timeline-title">Marble Palace</h3>
+                            <p class="timeline-text">A private neoclassic residence built by Raja Rajendra Mullick. Known for its extensive marble carvings, gardens, and rich collection of classical paintings.</p>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item" data-year="1840">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <span class="timeline-date">1840 - 1844</span>
+                            <h3 class="timeline-title">Metcalfe Hall</h3>
+                            <p class="timeline-text">A neoclassical hall facing the Hooghly River, designed in imitation of the Athens Temple of the Winds, showing 30 massive Corinthian columns.</p>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item" data-year="1847">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <span class="timeline-date">1839 - 1847</span>
+                            <h3 class="timeline-title">St. Paul's Cathedral</h3>
+                            <p class="timeline-text">Constructed as the first Anglican cathedral in the East, it features majestic Gothic Revival spires, windows, and stained glass panels.</p>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item" data-year="1868">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <span class="timeline-date">1864 - 1868</span>
+                            <h3 class="timeline-title">General Post Office (GPO)</h3>
+                            <p class="timeline-text">A neoclassical marvel boasting a dramatic 220-foot tall dome and majestic curved Corinthian columns, built on the site of the historic Black Hole of Calcutta.</p>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item" data-year="1921">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <span class="timeline-date">1906 - 1921</span>
+                            <h3 class="timeline-title">Victoria Memorial</h3>
+                            <p class="timeline-text">The pinnacle of colonial design in India, built from Makrana marble. A stunning blend of Mughal and European Renaissance styles dedicated to Queen Victoria.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Interactive Quiz Section -->
+        <section id="quiz" class="quiz-section">
+            <div class="container">
+                <div class="section-header">
+                    <span class="subheading">Fun Trivia</span>
+                    <h2 class="section-title">Test Your Architecture IQ</h2>
+                    <p class="section-description">Take our interactive quiz to see how well you know Kolkata's buildings, and discover which architectural style matches your personality!</p>
+                </div>
+
+                <div class="quiz-container">
+                    <div class="quiz-progress">
+                        <div class="progress-bar" id="progress-bar"></div>
+                    </div>
+                    
+                    <div id="quiz-intro" class="quiz-slide active">
+                        <div class="quiz-intro-content">
+                            <div class="quiz-badge-icon"><i data-lucide="crown"></i></div>
+                            <h3>Are you a Gothic Cathedral or a Neoclassical Palace?</h3>
+                            <p>Answer 5 fun questions about Kolkata's structures to test your knowledge and discover your design persona!</p>
+                            <button id="start-quiz-btn" class="btn btn-primary">Start the Quiz</button>
+                        </div>
+                    </div>
+
+                    <div id="quiz-question-container" class="quiz-slide">
+                        <div class="question-header">
+                            <span class="question-number" id="question-number">Question 1 of 5</span>
+                            <h3 class="question-text" id="question-text">Loading question...</h3>
+                        </div>
+                        <div class="quiz-options" id="quiz-options">
+                            <!-- Options will be generated dynamically -->
+                        </div>
+                    </div>
+
+                    <div id="quiz-result" class="quiz-slide">
+                        <div class="quiz-result-content">
+                            <div class="result-badge-icon"><i data-lucide="award"></i></div>
+                            <h3>Your Score: <span id="score-text">0/5</span></h3>
+                            <h4 class="personality-title">Your Design Personality: <span id="personality-style">Neoclassical</span></h4>
+                            <p class="personality-desc" id="personality-desc">You are elegant, structured, and love classical ideals.</p>
+                            <div class="result-actions">
+                                <button id="restart-quiz-btn" class="btn btn-secondary">Try Again</button>
+                                <a href="#buildings" class="btn btn-primary">Browse Buildings</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Detailed Modal Popup -->
+    <div class="modal" id="details-modal">
+        <div class="modal-backdrop"></div>
+        <div class="modal-content-wrapper">
+            <button class="modal-close" aria-label="Close details">
+                <i data-lucide="x"></i>
+            </button>
+            <div class="modal-body">
+                <div class="modal-img-container">
+                    <img id="modal-image" src="" alt="Building image">
+                    <span class="modal-style-badge" id="modal-style">Indo-Saracenic</span>
+                </div>
+                <div class="modal-info">
+                    <h2 class="modal-title" id="modal-title">Victoria Memorial</h2>
+                    <div class="modal-meta-grid">
+                        <div class="meta-item">
+                            <i data-lucide="calendar"></i>
+                            <div>
+                                <span class="meta-label">Built</span>
+                                <span class="meta-value" id="modal-built">1906–1921</span>
+                            </div>
+                        </div>
+                        <div class="meta-item">
+                            <i data-lucide="user"></i>
+                            <div>
+                                <span class="meta-label">Architect</span>
+                                <span class="meta-value" id="modal-architect">William Emerson</span>
+                            </div>
+                        </div>
+                        <div class="meta-item">
+                            <i data-lucide="map-pin"></i>
+                            <div>
+                                <span class="meta-label">Location</span>
+                                <span class="meta-value" id="modal-location">Maidan, Kolkata</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="modal-details-section">
+                        <h3>Historical Overview</h3>
+                        <p id="modal-desc">This is the historical description of the building...</p>
+                    </div>
+
+                    <div class="modal-details-section">
+                        <h3>Architectural Highlights</h3>
+                        <ul id="modal-highlights" class="highlights-list">
+                            <li>Highlight 1</li>
+                            <li>Highlight 2</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer Section -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-top">
+                <div class="footer-brand">
+                    <a href="#" class="logo">
+                        <span class="logo-icon"><i data-lucide="palmtree"></i></span>
+                        <span class="logo-text">KOLKATA<span>HERITAGE</span></span>
+                    </a>
+                    <p class="footer-tagline">Preserving and exploring the visual history of the City of Palaces.</p>
+                </div>
+                <div class="footer-links-grid">
+                    <div class="footer-col">
+                        <h4>Explore</h4>
+                        <ul>
+                            <li><a href="#home">Home</a></li>
+                            <li><a href="#styles">Styles</a></li>
+                            <li><a href="#buildings">Landmarks</a></li>
+                            <li><a href="#timeline">Timeline</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h4>Styles</h4>
+                        <ul>
+                            <li><a href="#styles">Neoclassical</a></li>
+                            <li><a href="#styles">Gothic Revival</a></li>
+                            <li><a href="#styles">Indo-Saracenic</a></li>
+                            <li><a href="#styles">Renaissance</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+            <hr class="footer-divider">
+
+            <div class="footer-bottom">
+                <p class="copyright">&copy; 2026 Kolkata Heritage. Designed with passion for heritage preservation.</p>
+                <div class="footer-quote">
+                    "We shape our buildings; thereafter they shape us." — Sir Winston Churchill
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- App JavaScript -->
+    <script src="app.js"></script>
+</body>
+</html>
