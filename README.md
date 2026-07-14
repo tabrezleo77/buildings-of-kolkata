@@ -47,7 +47,8 @@ git clone https://github.com/your-username/your-repository.git
 
 ## 📸 Preview
 
-Add screenshots or a GIF of the website here.
+![Uploading image.png…]()
+
 
 ## 🎯 Future Improvements
 
