@@ -50,6 +50,7 @@ git clone https://github.com/your-username/your-repository.git
 ![Uploading image.png…]()
 
 
+
 ## 🎯 Future Improvements
 
 * Search functionality
